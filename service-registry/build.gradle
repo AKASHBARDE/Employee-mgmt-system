@@ -30,6 +30,7 @@ dependencyManagement {
 		mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
 	}
 }
+you need go add somthing here
 
 tasks.named('test') {
 	useJUnitPlatform()
